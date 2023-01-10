@@ -30,6 +30,13 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('au-input');
   });
 
+  // it('should render title', () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   fixture.detectChanges();
+  //   const compiled = fixture.nativeElement as HTMLElement;
+  //   expect(compiled.querySelector('.content span')?.textContent).toContain('au-input app is running!');
+  // });
+
   beforeEach(() => {
     fixture = TestBed.createComponent(AppComponent);
     component = fixture.debugElement.componentInstance;
@@ -58,10 +65,4 @@ describe('AppComponent', () => {
     expect(emailField.query(By.css('input.test-class'))).toBeTruthy();
   });
 
-  // it('should render title', () => {
-  //   const fixture = TestBed.createComponent(AppComponent);
-  //   fixture.detectChanges();
-  //   const compiled = fixture.nativeElement as HTMLElement;
-  //   expect(compiled.querySelector('.content span')?.textContent).toContain('au-input app is running!');
-  // });
 });
