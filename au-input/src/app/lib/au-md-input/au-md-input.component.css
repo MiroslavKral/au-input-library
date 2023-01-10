@@ -1,0 +1,7 @@
+@import "../common/common.css";
+@import "../common/input-default-theme.css";
+
+.md-icon {
+  line-height: 21px;
+  vertical-align: middle;
+}
