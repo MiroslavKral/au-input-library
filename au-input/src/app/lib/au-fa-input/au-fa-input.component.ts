@@ -1,5 +1,5 @@
 import { parseHostBindings } from '@angular/compiler';
-import { Component, ContentChild, Input, OnInit, AfterContentInit, HostBinding, ViewEncapsulation } from '@angular/core';
+import { Component, ContentChild, Input, OnInit, AfterContentInit, HostBinding } from '@angular/core';
 import { InputRefDirective } from '../common/input-ref.directive';
 
 @Component({

@@ -8,5 +8,4 @@ import { Component, Input } from '@angular/core';
 export class AuTabComponent {
   @Input() title!: string
   @Input() selected = false
-
 }

@@ -2,17 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AuTabPanelComponent } from './au-tab-panel/au-tab-panel.component';
-import { AuTabComponent } from './au-tab/au-tab.component';
+import { AuTabPanelModule } from './au-tab-panel/au-tab-panel.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AuTabPanelComponent,
-    AuTabComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AuTabPanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]
